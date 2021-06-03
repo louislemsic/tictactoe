@@ -1,0 +1,11 @@
+#background{
+    -fx-background-color: black;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;  
+}
+
+#bgBoard{
+    -fx-background-image: url("bgBoard.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;  
+}

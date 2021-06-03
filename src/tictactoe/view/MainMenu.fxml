@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="996.0" stylesheets="@resources/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.controller.MainMenuController">
+   <children>
+      <StackPane fx:id="stackPane" prefHeight="566.0" prefWidth="996.0">
+         <children>
+            <MediaView fx:id="mediaView" fitHeight="${stackPane.height}" fitWidth="${stackPane.width}" layoutX="1.0" />
+         </children>
+      </StackPane>
+      <ImageView fx:id="gameTitle" fitHeight="148.0" fitWidth="529.0" layoutX="234.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectButton" fitHeight="150.0" fitWidth="200.0" layoutX="399.0" layoutY="396.0" onMouseClicked="#selectButtonAction" onMouseEntered="#selectIn" onMouseExited="#selectOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/selectButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playButton" fitHeight="150.0" fitWidth="200.0" layoutX="398.0" layoutY="295.0" onMouseClicked="#playButtonAction" onMouseEntered="#playIn" onMouseExited="#playOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/playButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="exitButton" fitHeight="150.0" fitWidth="200.0" layoutX="398.0" layoutY="466.0" onMouseClicked="#exitButtonAction" onMouseEntered="#exitIn" onMouseExited="#exitOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/exitButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level1" fitHeight="301.0" fitWidth="301.0" layoutX="349.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/level1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level0" fitHeight="301.0" fitWidth="301.0" layoutX="84.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/level0.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="level2" fitHeight="301.0" fitWidth="301.0" layoutX="613.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/level2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectLevelText" fitHeight="148.0" fitWidth="529.0" layoutX="234.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@resources/selectLevelText.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectRandy" fitHeight="67.0" fitWidth="144.0" layoutX="163.0" layoutY="446.0" onMouseClicked="#selectRandyAction" onMouseEntered="#selectRandyIn" onMouseExited="#selectRandyOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/select_alone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectRick" fitHeight="67.0" fitWidth="144.0" layoutX="691.0" layoutY="448.0" onMouseClicked="#selectRickAction" onMouseEntered="#selectRickIn" onMouseExited="#selectRickOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/select_alone.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="selectPaul" fitHeight="67.0" fitWidth="144.0" layoutX="428.0" layoutY="448.0" onMouseClicked="#selectPaulAction" onMouseEntered="#selectPaulIn" onMouseExited="#selectPaulOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/select_alone.png" />
+         </image>
+      </ImageView>
+      <MediaView fx:id="sfx" fitHeight="200.0" fitWidth="200.0" visible="false" />
+      <ImageView fx:id="muteButton" fitHeight="61.0" fitWidth="71.0" layoutX="927.0" layoutY="497.0" onMouseClicked="#muteButtonAction" onMouseEntered="#muteButtonIn" onMouseExited="#muteButtonOut" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/muteButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boardID" fitHeight="185.0" fitWidth="144.0" layoutX="14.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/id_randy.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
