@@ -6,6 +6,8 @@ MC02. A Java Program that showcases AI capabilities competing to a Human player 
 
 This Machine Project was submitted to Mrs. Judith Azcarraga as partial completion for the course CSINTSY at De La Salle University. My co-worker for this project is Jordan Sibug.
 
+You may opt to download the JAR file or download the source code, to run the program. I personally suggest downloading the JAR file instead. A JAR File is like a ZIP file for Java classes but acts like an EXE file (So when you download it, then run it, it opens the application easily without necessary extra setup).
+
 ## Downloading the JAR File
 1. Make sure that Java is installed already (Must be Version 11 or up). You may download Java 11 [here](https://www.oracle.com/ph/java/technologies/javase-jdk11-downloads.html). No need to download JavaFX for running the JAR File.
 3. Download the JAR file at https://bit.ly/CSINTSY-TicTacToe
@@ -21,4 +23,4 @@ This Machine Project was submitted to Mrs. Judith Azcarraga as partial completio
 ### Final Reminders
 * Your computer might consider the JAR file a malware since it's a program *not widely known* since we're just students. Disregard any warnings your computer or anti-virus may say. We guarantee that our JAR file has no virus or malicious software embedded to it.
 * It is very important to make sure JavaFX Libraries are included to the project if one will run the source code instead of the JAR File provided.
-* The game is inspired by the popular game Among Us developed by Innersloth, art and soundtrack belongs to them and we own nothing. No copyright infringement intended. All Rights belong to InnerSloth. This is for educational purposes only.
+* **The game is inspired by the popular game Among Us developed by Innersloth, art and soundtrack belongs to them and we own nothing. No copyright infringement intended. All Rights belong to InnerSloth. This is for educational purposes only.**
